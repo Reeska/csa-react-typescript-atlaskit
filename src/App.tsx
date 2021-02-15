@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Toggle from '@atlaskit/toggle';
 
 interface AppProps {}
 
@@ -33,6 +34,9 @@ function App({}: AppProps) {
             Learn React
           </a>
         </p>
+        <div>
+          Display a toggle <Toggle />
+        </div>
       </header>
     </div>
   );

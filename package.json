@@ -7,8 +7,10 @@
     "lint": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
+    "@atlaskit/toggle": "^12.0.3",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "styled-components": "^3.2.6"
   },
   "devDependencies": {
     "@snowpack/plugin-dotenv": "^2.0.5",

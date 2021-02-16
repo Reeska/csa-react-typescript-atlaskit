@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Toggle from '@atlaskit/toggle';
+import styled from "styled-components";
+// import Toggle from '@atlaskit/toggle';
+
+const StyledSpan = styled.span`
+  border: 1px solid black;
+`
 
 interface AppProps {}
 
@@ -35,7 +40,7 @@ function App({}: AppProps) {
           </a>
         </p>
         <div>
-          Display a toggle <Toggle />
+          Display a toggle <StyledSpan>Word</StyledSpan>
         </div>
       </header>
     </div>

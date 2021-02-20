@@ -1,0 +1,15 @@
+diff --git a/node_modules/styled-components/package.json b/node_modules/styled-components/package.json
+index 4c408cb..0b673c1 100644
+--- a/node_modules/styled-components/package.json
++++ b/node_modules/styled-components/package.json
+@@ -4,8 +4,8 @@
+   "description": "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅",
+   "typings": "typings/styled-components.d.ts",
+   "main": "dist/styled-components.cjs.js",
+-  "jsnext:main": "dist/styled-components.esm.js",
+-  "module": "dist/styled-components.esm.js",
++  "jsnext:main": "dist/styled-components.cjs.js",
++  "module": "dist/styled-components.cjs.js",
+   "react-native": "dist/styled-components.native.cjs.js",
+   "browser": {
+     "./dist/styled-components.esm.js": "./dist/styled-components.browser.esm.js",

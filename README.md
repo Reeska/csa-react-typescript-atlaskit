@@ -2,6 +2,17 @@
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
+## Fix
+
+I've fixed styled-components using [patch-package](https://www.npmjs.com/package/patch-package) to replace ESM module by CJS module into styled-components' package.json.
+
+To do that, I have:
+
+1) manually edited the styled-components package.json to change `jsnext:main` and `module` property to CJS module.
+2) Run this command: `npx patch-package styled-components --exclude '\\.js$'`
+3) Add `postinstall` hook in my own package.json to run `patch-package` for every install
+4) That works 🎉
+
 ## Available Scripts
 
 ### npm start

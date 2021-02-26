@@ -19,6 +19,7 @@ module.exports = {
   },
   packageOptions: {
     /* ... */
+    packageLookupFields: ['main'],
   },
   devOptions: {
     /* ... */
